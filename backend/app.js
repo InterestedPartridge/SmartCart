@@ -4,7 +4,6 @@ const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const fileUpload = require("express-fileupload");
 const path = require("path");
-const PORT = process.env.PORT
 
 const errorMiddleware = require("./middleware/error");
 
